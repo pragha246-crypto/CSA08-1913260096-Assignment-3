@@ -1,4 +1,4 @@
-# Completed faculty TODO programs (Q2–Q4)
+# Completed TODO programs (Q2–Q4)
 
 Student: Alan Jerry F.  
 Register number: 1913260096  

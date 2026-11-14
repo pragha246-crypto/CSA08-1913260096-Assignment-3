@@ -1,0 +1,26 @@
+Spreadsheet runtime warmup failed during python startup
+Traceback (most recent call last):
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py", line 26, in warm_spreadsheet_runtime_on_startup
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 785, in warm_spreadsheet_runtime
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 718, in _warm_feature_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 509, in _warm_drawing_and_image_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/generated/interface/models.py", line 32861, in bring_to_front
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/remote.py", line 764, in __call__
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/client.py", line 175, in call
+artifact_tool.rpc.client.RemoteError: Element ordering requires an owning element collection.
+test_blank_consumer (test_billing.BillingTests.test_blank_consumer) ... ok
+test_first_boundary (test_billing.BillingTests.test_first_boundary) ... ok
+test_invalid_decreasing_reading (test_billing.BillingTests.test_invalid_decreasing_reading) ... ok
+test_negative_reading (test_billing.BillingTests.test_negative_reading) ... ok
+test_one_above_first (test_billing.BillingTests.test_one_above_first) ... ok
+test_one_above_second (test_billing.BillingTests.test_one_above_second) ... ok
+test_sample_bill (test_billing.BillingTests.test_sample_bill) ... ok
+test_second_boundary (test_billing.BillingTests.test_second_boundary) ... ok
+test_surcharge_boundary (test_billing.BillingTests.test_surcharge_boundary) ... ok
+test_units (test_billing.BillingTests.test_units) ... ok
+test_zero_units_energy (test_billing.BillingTests.test_zero_units_energy) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.001s
+
+OK

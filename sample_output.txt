@@ -1,0 +1,12 @@
+ELECTRICITY BILL CALCULATOR
+Consumer number: Consumer name: Previous meter reading: Current meter reading: --------- ELECTRICITY BILL ---------
+Consumer number : D1024
+Consumer name   : Arun Kumar
+Previous reading: 1250 kWh
+Current reading : 1390 kWh
+Units consumed  : 140 units
+Energy charge   : Rs. 250.00
+Fixed charge    : Rs. 50.00
+Surcharge       : Rs. 0.00
+------------------------------------
+TOTAL PAYABLE   : Rs. 300.00
